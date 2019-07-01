@@ -1,0 +1,148 @@
+html,body{
+    height: 100%;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}  
+#page1{
+    position: relative;
+    background: url("../images/diwen1.png") center center;
+}
+#page1>img{
+    position: absolute;
+}
+.textContent{
+    position:absolute;
+    font-size:0.32rem;
+    left:0.7rem;
+    top:6.5rem;
+    line-height:0.64rem;
+    columns: #000000;
+    z-index: 999;
+}
+.fengmian{
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.laoban{
+    width: 2.625rem;
+    height: 1.2rem;
+    top: 0.5rem;
+    left: 2.5rem;
+}
+.rencai{
+    width: 3.21rem;
+    height: 0.88rem;
+    top: 2rem;
+    left: 2.3rem;
+}
+.liaoji{
+    width: 3.56rem;
+    height: 0.81rem;
+    top: 3.2rem;
+    left: 2.1rem;
+}
+#next{
+    widows: 0.5rem;
+    height: 0.5rem;
+    background: url("../images/arrow.png") center center no-repeat;
+    background-size: cover;
+    bottom:0.2rem;
+    top: auto;
+    left: 50%;
+    margin-left: -0.25rem;
+    animation: fadeInUp 0.5s linear infinite;
+}
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+/*第二页*/
+.page2{
+    position: relative;
+}
+.page2>img{
+    position: absolute;
+}
+.page2{
+    height:100%;
+    background:url("../images/ye2.png") center center no-repeat;
+    background-size:cover;
+}
+.jiaobiao{
+    width: 2.16rem;
+    height: 2.1rem;
+    left: 0.4rem;
+    bottom: 0.5rem;
+}
+.bejing{
+    width: 3.27rem;
+    height: 0.80rem;
+    left: 2.2rem;
+    top: 0.9rem;
+}
+.gangwei{
+    width: 3.31rem;
+    height: 0.97rem;
+    left: 2.2rem;
+    top: 7.7rem;
+}
+.wen1{
+    width: 6.04rem;
+    height: 3.56rem;
+    left: 0.8rem;
+    top: 2.5rem;
+}
+.wen2{
+    width: 6.04rem;
+    height: 3.36rem;
+    left: 0.8rem;
+    top: 9rem;
+}
+/*第三页*/
+.page3{
+    position:relative;
+    background:url("../images/ye3.png");
+    background-size:100% 100%;
+}
+.page3>img{
+    position: absolute;
+}
+.wj1{
+    width: 2.508rem;
+    height: 3.961rem;
+    left: 4rem;
+    top: 2rem;
+}
+.wj2{
+    width: 2.508rem;
+    height: 3.961rem;
+    left: 4rem;
+    top: 8rem;
+}
+.wj3{
+    width: 2.508rem;
+    height: 3.961rem;
+    left: 0.8rem;
+    top: 4.5rem;
+}
+/*4*/
+.page4{
+    position:relative;
+    background:url("../images/ye3.png");
+    background-size:100% 100%;
+}
+.page4>img{
+    position: absolute;
+}
